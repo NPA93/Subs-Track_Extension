@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "SubsControl",
+  "description": "Subscription Tracking Extension",
+  "version": "1.0"
+}
