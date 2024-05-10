@@ -3,11 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>A pagar Carajooo!!</h1>
+
+    <div class="container">
+      <section id="status-bar">
+        <h1 class="extension-name">SubsControl</h1>
+        <a href="form.html">
+          <span class="material-symbols-outlined">add</span> 
+        </a>
+        </section>
+
+      <section class="subs_panel">
+        <ul>
+          <li>
+            <div>
+              <h2 class="subs-name">Amazon Prime</h2>
+              <p class="renewal-date">Renews in 15 days</p>
+            </div>
+
+            <div>
+              <h3 class="subs-cost">49.99</h3>
+              <p class="subs-cycle">annually</p>
+            </div>
+          </li>
+          
+          <li>
+            <div>
+              <h2 class="subs-name">Netflix</h2>
+              <p class="renewal-date">Renews in 10 days</p>
+            </div>
+
+            <div>
+              <h3 class="subs-cost">12.99</h3>
+              <p class="subs-cycle">monthly</p>
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <h2 class="subs-name">Chat-GPT</h2>
+              <p class="renewal-date">Renews in 5 days</p>
+            </div>
+
+            <div>
+              <h3 class="subs-cost">29.99</h3>
+              <p class="subs-cycle">monthly</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section id="average-expenses-bar">
+      <div>
+        <h2>Average Expenses</h2>
+        <p>This year</p>
+      </div>
+      <div>
+        <h3>200,00 € </h3>
+      </div>
+    </section>
+
 
     <script src="script.js"></script>
   </body>
